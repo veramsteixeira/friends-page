@@ -1,0 +1,114 @@
+body {
+  background: linear-gradient(to right, #434343 0%, black 100%);
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 14Spx;
+  border-radius: 4px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h2 span {
+  color: #ffcc00;
+}
+h3 {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+  border-radius: 10px;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 13px;
+  margin: 20px 0 10px;
+  border: 1px solid white;
+  padding: 15px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: justify;
+  font-weight: bold;
+}
+button {
+  margin: 0px auto;
+  background: transparent;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  transition: all 200ms ease-in-out;
+  display: inline-block;
+  margin-right: 200px;
+}
+button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  border: none;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px 60px;
+}
+.know-more {
+  color: #ffcc00;
+  font-size: 12px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.know-more:hover {
+  text-decoration: underline;
+}
+footer {
+  text-align: center;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  height: auto;
+}
+.hboMax-button {
+  width: 200px;
+  height: 150px;
+}
+.netflix-button {
+  width: 200px;
+  height: 150px;
+}
+hr {
+  border-color: #ffcc00;
+}
+
+.contactButton {
+  background-color: #ffcc00;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.contactButton:hover {
+  background-color: #434343;
+}
